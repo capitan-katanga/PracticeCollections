@@ -1,8 +1,6 @@
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
-public class Test {
+public class Array {
     public static void main(String[] args) {
         // Los arrays puede almacenar datos de un mismo tipo.
         // La longitud del array se define al momento de se creacion y no se puede cambiar.
