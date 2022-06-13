@@ -5,11 +5,11 @@ public class ParameterizedLists {
 
         // En los arrays parametrizados se define el tipo de datos que almacenara el array.
         // No es posible almacenar otro tipo de dato que el especificado entre <>
-        ArrayList<Card> cardsList = new ArrayList<>();
+        ArrayList<Car> cardsList = new ArrayList<>();
 
-        cardsList.add(new Card("Honda", "Civic", 2100));
-        cardsList.add(new Card("Toyota", "Camry", 2900));
-        cardsList.add(new Card("BMW", "X6", 60000));
+        cardsList.add(new Car("Honda", "Civic", 2100));
+        cardsList.add(new Car("Toyota", "Camry", 2900));
+        cardsList.add(new Car("BMW", "X6", 60000));
 
         System.out.println("Cards list " + cardsList);
 
